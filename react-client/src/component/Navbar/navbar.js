@@ -30,19 +30,19 @@ const Navbar =()=>{
  
 
 
-       <div className="text-xl 2xl:ml-30 ml-10 hover:underline    hover:underline-offset-8 hover:text-sky-500 hover:font-semibold">
+       <div className="text-xl 2xl:ml-30 ml-10 hover:underline    hover:underline-offset-[2.5vh] hover:text-sky-500 hover:font-semibold">
         Latest News
        </div>
-       <div className="text-xl ml-6 hover:underline   hover:underline-offset-8 hover:text-sky-500 hover:font-semibold">
+       <div className="text-xl ml-6 hover:underline   hover:underline-offset-[2.5vh] hover:text-sky-500 hover:font-semibold">
         Politics
        </div>
-       <div className="text-xl ml-6 hover:underline  hover:underline-offset-8  hover:text-sky-500 hover:font-semibold">
+       <div className="text-xl ml-6 hover:underline  hover:underline-offset-[2.5vh]  hover:text-sky-500 hover:font-semibold">
        Sports
        </div>
-       <div className="text-xl  ml-6 hover:underline hover:underline-offset-8 hover:text-sky-500 hover:font-semibold">
+       <div className="text-xl  ml-6 hover:underline hover:underline-offset-[2.5vh] hover:text-sky-500 hover:font-semibold">
       Bussinuss
        </div>
-       <div className="text-xl  ml-6 hover:underline hover:underline-offset-8 hover:text-sky-500 hover:font-semibold">
+       <div className="text-xl  ml-6 hover:underline hover:underline-offset-[2.5vh] hover:text-sky-500 hover:font-semibold">
       More...
        </div>
       
