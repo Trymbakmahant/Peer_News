@@ -11,6 +11,8 @@ const Navbar = () => {
     
     <a className= {styles.Heading}>Peer News</a>
   </div>
+  </div>
+
   <div className="navbar-end">
     <input className="border-2 h-10 w-72 rounded-[4px]" placeholder=" Type to search..."/>
     <button className="btn btn-ghost btn-circle">
@@ -23,7 +25,6 @@ const Navbar = () => {
       </div>
     </button>
   </div>
-</div>
 </div>
 
     </>)
