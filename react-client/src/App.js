@@ -1,19 +1,19 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Path from "./routes/path";
-import Sidebar from "./component/sidebar/sidebar";
-import { useContext } from "react";
-import { userContext } from "./context/appContext";
-function App() {
-  const ctx = useContext(userContext);
-  const sidebarFlag = ctx.sharedData.sidebarFlag;
+import logo from './logo.svg';
+import './App.css';
+import Path from './routes/path';
+import Navbar from './component/Navbar/navbar';
 
-  return (
-    <>
+function App() {
+  
+
+  return (<>
+  <>   
+   <Navbar/>
       <div>
         <Path />
       </div>
     </>
+  </>
   );
 }
 
